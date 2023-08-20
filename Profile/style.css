@@ -29,14 +29,16 @@ body {
     min-height: 100vh;
     width: 100%;
     font-family: 'Nunito', sans-serif;
-    background-image: url('img/4709918.jpg');
+    background-image: url('img/nen.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+ 
 }
 
 body .container {
-    background-color: rgba(224, 192, 192, 0.601);
+    
+    background-color: rgba(179, 227, 190, 0.601);
     width: 480px;
     border-radius: 25px;
     overflow: hidden;
@@ -108,6 +110,19 @@ body .container .box {
 .box .box_info .info {
     text-align: center;
     flex: 3;
+    font-family: 'Your Desired Font', sans-serif;
+}
+
+.name {
+    font-size: 18px; /* Kích thước font chữ cho tên */
+    font-weight: bold; /* Độ đậm của font chữ */
+    font-style: italic; /* Làm nghiêng font chữ */
+}
+
+.job {
+    font-size: 14px; /* Kích thước font chữ cho công việc */
+    font-weight: normal; /* Độ đậm của font chữ */
+    font-style: italic; /* Làm nghiêng font chữ */
 }
 
 .box .box_info .edit {
@@ -239,5 +254,12 @@ body .container .box {
 .connect span:hover .bi {
     animation: shake 0.4s ease;
 }
+.icon {
+    font-size: 20px; /* Kích thước ban đầu của biểu tượng */
+    transition: transform 0.2s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
 
+.icon:hover {
+    transform: scale(1.2); /* Phóng to biểu tượng khi hover vào */
+}
 
